@@ -511,15 +511,14 @@ function Game() {
             },
           }}
         >
+          
           {currentQuestion ===
           questions.length - 1
             ? "🏆 Finish Quiz"
             : "➡️ Next Question"}
         </Button>
 
-
         {/* HOME */}
-
         <Button
           component={Link}
           to="/"
